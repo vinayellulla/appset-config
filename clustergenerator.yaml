@@ -23,7 +23,7 @@ spec:
       source:
         repoURL: https://github.com/vinayellulla/appset-config.git
         targetRevision: main
-        path: "{{.metadata.labels.region}}/manifests"
+        path: "{{.metadata.labels.region}}"
 
       destination:
         name: "{{.name}}"
